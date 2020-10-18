@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contact() {
+function ContactInfo() {
   return (
     <div class="row mt-5">
       <section class="col-md-8 m-5 pb-5 pr-4 bg-light text-dark">
@@ -46,4 +46,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactInfo;

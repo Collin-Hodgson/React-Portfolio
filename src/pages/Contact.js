@@ -1,11 +1,8 @@
-import React, { Component } from "react";
-import Container from "../components/Container";
-import Alert from "../components/About";
+import React from "react";
+import ContactInfo from "../components/Contact";
 
-function Navbar() {
-  return(
-    
-  );
+function Contact() {
+  return <ContactInfo />;
 }
 
-export default Search;
+export default Contact;

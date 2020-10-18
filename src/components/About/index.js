@@ -9,7 +9,7 @@ function AboutMe(props) {
         <div class="px-3 mr-3">
           <hr class="pl-4 pr-4 mpb-2 solid bg-dark" />
           <img
-            src="assets/images/me.jpg.HEIC"
+            src="/src/assets/images/me.jpg.HEIC"
             class="float-left pr-4 pb-3 img-fluid"
             alt="Collin Hodgson"
           />

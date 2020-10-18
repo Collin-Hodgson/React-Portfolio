@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Card(props) {
+function Projects(props) {
   return (
     <div class="row mt-5">
       <section class="col-md-8 m-5 pb-5 bg-white text-dark">
@@ -166,4 +166,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default Projects;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function About(props) {
+function AboutMe(props) {
   return (
     <div class="row mt-5">
       <section class="col-md-8 m-5 pb-5 bg-light text-dark">
@@ -34,4 +34,4 @@ function About(props) {
   );
 }
 
-export default About;
+export default AboutMe;

@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Pupster 2017</span>
+      <span>Copyright 2020: Collin Hodgson</span>
     </footer>
   );
 }

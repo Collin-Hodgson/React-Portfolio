@@ -1,47 +1,56 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand text-white" href="index.html">
-        Collin Hodgson
-      </a>
-
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-white" href="index.html">
-              About Me
-            </a>
+      <Link className="navbar-brand" to="/">
+        Collin P. Hodgson
+      </Link>
+      <div>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link
+              to="/"
+              className={
+                window.location.pathname === "/" ||
+                window.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              About
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="portfolio.html">
+          <li className="nav-item">
+            <Link
+              to="/discover"
+              className={
+                window.location.pathname === "/discover"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
               Portfolio
-            </a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="contact.html">
+          <li className="nav-item">
+            <Link
+              to="/search"
+              className={
+                window.location.pathname === "/search"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
     </nav>
   );
 }
-
 export default Navbar;

@@ -14,7 +14,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://collin-hodgson.github.io/coderefactor/">
                 <img
-                  src="assets/images/coderefactor.jpg"
+                  src="/src/assets/images/coderefactor.jpg"
                   alt="Code Refactor"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -27,7 +27,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://collin-hodgson.github.io/responsiveportfolio/">
                 <img
-                  src="assets/images/portfolio.jpg"
+                  src="/src/assets/images/portfolio.jpg"
                   alt="Responsive Portfolio"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -42,7 +42,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://collin-hodgson.github.io/passwordgenerator/">
                 <img
-                  src="assets/images/password.PNG"
+                  src="/src/assets/images/password.PNG"
                   alt="Password Generator"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -55,7 +55,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://collin-hodgson.github.io/dayplanner/">
                 <img
-                  src="assets/images/planner.png"
+                  src="/src/assets/images/planner.png"
                   alt="Day Planner"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -70,7 +70,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://collin-hodgson.github.io/weatherdashboard/">
                 <img
-                  src="assets/images/dashboard.png"
+                  src="/src/assets/images/dashboard.png"
                   alt="Weather Dashboard"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -83,7 +83,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://drive.google.com/file/d/1V6Eo94SWk8Ox7SalijZLZNSvAAsgQWqR/view?usp=sharing">
                 <img
-                  src="assets/images/resume.jpg"
+                  src="/src/assets/images/resume.jpg"
                   alt="Resume"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -98,7 +98,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://github.com/Eelektrick/8-bit-bartender">
                 <img
-                  src="assets/images/cropped-logo.png"
+                  src="/src/assets/images/cropped-logo.png"
                   alt="8-Bit Bartender"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -111,7 +111,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://github.com/Collin-Hodgson/readmegenerator">
                 <img
-                  src="assets/images/readme.PNG"
+                  src="/src/assets/images/readme.PNG"
                   alt="README.md Generator"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -126,7 +126,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://github.com/Collin-Hodgson/teamgenerator">
                 <img
-                  src="assets/images/teamgenerator.PNG"
+                  src="/src/assets/images/teamgenerator.PNG"
                   alt="Team Generator"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -139,7 +139,7 @@ function Projects(props) {
             <div class="card p-2 shadow border-0">
               <a href="https://github.com/AtimaB/The-Fight-Club">
                 <img
-                  src="assets/images/fightclub.PNG"
+                  src="/src/assets/images/fightclub.PNG"
                   alt="The-Fight-Club"
                   class="card-img-top img-fluid mx-auto d-block"
                 />
@@ -153,7 +153,7 @@ function Projects(props) {
           <div class="col-md-6 mb-4">
             <div class="card p-2 shadow border-0">
               <img
-                src="assets/images/soon.jpg"
+                src="/src/assets/images/soon.jpg"
                 alt="Coming Soon"
                 class="card-img-top img-fluid mx-auto d-block"
               />

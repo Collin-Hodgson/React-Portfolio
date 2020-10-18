@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../components/Card";
-import Alert from "../components/Alert";
+import Card from "../components/Portfolio";
+import Alert from "../components/About";
 
 function Portfolio() {
   return (
-    
+
   );
 }
 

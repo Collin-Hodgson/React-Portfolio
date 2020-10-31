@@ -10,7 +10,12 @@ import {
 
 function Navbar() {
   return (
-    <MDBNavbar color="info-color" dark expand="md" style={{ width: "100%" }}>
+    <MDBNavbar
+      color="special-color-dark"
+      dark
+      expand="md"
+      style={{ width: "100%" }}
+    >
       <MDBNavbarBrand>
         <strong className="white-text">Collin P. Hodgson</strong>
       </MDBNavbarBrand>

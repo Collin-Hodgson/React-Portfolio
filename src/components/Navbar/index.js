@@ -27,6 +27,12 @@ function Navbar() {
           </MDBNavLink>
         </MDBNavItem>
         <MDBNavItem>
+          <MDBNavLink className="waves-effect waves-light" to="/about">
+            <MDBIcon icon="code" className="mr-1" />
+            Apps
+          </MDBNavLink>
+        </MDBNavItem>
+        <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="#!">
             <MDBIcon icon="envelope" className="mr-1" />
             Contact

@@ -42,7 +42,6 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
-            href="https://github.com/Collin-Hodgson/Budget-Trackers"
             src="https://user-images.githubusercontent.com/64516562/94870920-00858f80-0406-11eb-9891-00634c7764d1.PNG"
             alt="Budget"
             top
@@ -66,9 +65,8 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
-            style={{ width: "100%" }}
-            className="img-fluid"
-            src="https://user-images.githubusercontent.com/64516562/94640654-84236d00-029c-11eb-8e4f-e65f2c9b4ac1.PNG"
+            style={{ width: "330px", height: "325px" }}
+            src="https://user-images.githubusercontent.com/64516562/97783621-b1469200-1b5e-11eb-8d90-935a7a2bcbae.PNG"
             alt="Fitness"
             top
           />
@@ -76,7 +74,7 @@ const Projects = () => {
             <MDBCardTitle tag="h5">Fitness Tracker</MDBCardTitle>
             <MDBCardText>
               With this app the user can log all exercises they perform in their
-              entire workout.
+              entire workout
             </MDBCardText>
             <MDBBtn
               href="https://github.com/Collin-Hodgson/WorkoutTracker"
@@ -92,7 +90,7 @@ const Projects = () => {
       <MDBCardGroup deck className="mt-3">
         <MDBCard>
           <MDBCardImage
-            size="128x128"
+            style={{ width: "250px", height: "200px" }}
             src="https://github.com/Collin-Hodgson/teamgenerator/raw/master/Assets/10-OOP-homework-demo-2.png"
             alt="Team Generator"
             top
@@ -116,11 +114,10 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
-            src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg"
+            style={{ width: "250px", height: "225px" }}
+            src="https://user-images.githubusercontent.com/64516562/97783467-97587f80-1b5d-11eb-9763-68ccebfadea9.png"
             alt="MDBCard image cap"
             top
-            hover
-            overlay="white-slight"
           />
           <MDBCardBody>
             <MDBCardTitle tag="h5">Panel title</MDBCardTitle>

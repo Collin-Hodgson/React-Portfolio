@@ -9,7 +9,8 @@ const AboutMe = () => {
           <h2>About Me</h2>
           <hr class="solid bg-dark" />
           <img
-            src="/src/assets/CHodgson.JPG"
+            style={{ height: "250px" }}
+            src="https://avatars0.githubusercontent.com/u/64516562?s=460&u=2778809b5be3b0ba187454d6c12564c0e67c369b&v=4"
             class="float-left pr-4 pb-3 img-fluid"
             alt="Collin Hodgson"
           />

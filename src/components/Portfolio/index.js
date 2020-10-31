@@ -120,7 +120,7 @@ const Projects = () => {
             style={{ height: "225px" }}
             className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/97785431-882bfe80-1b6a-11eb-8f73-a79d66dce85a.png"
-            alt="MDBCard image cap"
+            alt="Weather"
             top
           />
           <MDBCardBody>
@@ -145,7 +145,7 @@ const Projects = () => {
             style={{ height: "225px" }}
             className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/97785992-063dd480-1b6e-11eb-8040-7ca005d7830b.png"
-            alt="MDBCard image cap"
+            alt="Bartender"
             top
           />
           <MDBCardBody>
@@ -169,60 +169,74 @@ const Projects = () => {
       <MDBCardGroup deck className="mt-3">
         <MDBCard>
           <MDBCardImage
-            src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
-            alt="MDBCard image cap"
+            style={{ height: "205px" }}
+            src="https://user-images.githubusercontent.com/64516562/97790062-321b8300-1b8b-11eb-8a0e-079e54b31341.png"
+            alt="Planner"
             top
-            hover
-            overlay="white-slight"
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+            <MDBCardTitle tag="h5">Day Planner</MDBCardTitle>
             <MDBCardText>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              This is a work day plan app. It has hours sections on it so when
+              the user enters a description for each hour and save it the
+              description will stay until erased.
             </MDBCardText>
-            <MDBBtn color="light-blue" size="md">
-              read more
+            <MDBBtn
+              href="https://github.com/Collin-Hodgson/dayplanner"
+              color="primary"
+              size="md"
+            >
+              <MDBIcon icon="clone left" className="mr-1" />
+              View Project
             </MDBBtn>
           </MDBCardBody>
         </MDBCard>
 
         <MDBCard>
           <MDBCardImage
-            src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg"
-            alt="MDBCard image cap"
+            src="https://user-images.githubusercontent.com/64516562/97790068-3a73be00-1b8b-11eb-94f9-459018a10c80.PNG"
+            alt="Password"
             top
-            hover
-            overlay="white-slight"
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+            <MDBCardTitle tag="h5">Password Generator</MDBCardTitle>
             <MDBCardText>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              This app allows the user to generate a random password with
+              criteria of their choosing. This app utilizes numbers, letters,
+              and special characters.
             </MDBCardText>
-            <MDBBtn color="light-blue" size="md">
-              read more
+            <MDBBtn
+              href="https://github.com/Collin-Hodgson/passwordgenerator"
+              color="primary"
+              size="md"
+            >
+              <MDBIcon icon="clone left" className="mr-1" />
+              View Project
             </MDBBtn>
           </MDBCardBody>
         </MDBCard>
 
         <MDBCard>
           <MDBCardImage
-            src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg"
-            alt="MDBCard image cap"
+            style={{ height: "205px" }}
+            src="https://user-images.githubusercontent.com/64516562/97790066-3647a080-1b8b-11eb-8b2d-05e8b7fbc112.jpg"
+            alt="Refactor"
             top
-            hover
-            overlay="white-slight"
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+            <MDBCardTitle tag="h5">Code Refactor</MDBCardTitle>
             <MDBCardText>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              This was an introductory assignment. We were required to update
+              div tags into semantic HTML tags to make the code easier to read,
+              understand and follow.
             </MDBCardText>
-            <MDBBtn color="light-blue" size="md">
-              read more
+            <MDBBtn
+              href="https://github.com/Collin-Hodgson/coderefactor"
+              color="primary"
+              size="md"
+            >
+              <MDBIcon icon="clone left" className="mr-1" />
+              View Project
             </MDBBtn>
           </MDBCardBody>
         </MDBCard>

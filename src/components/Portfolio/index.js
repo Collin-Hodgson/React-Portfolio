@@ -66,7 +66,7 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
-            style={{ width: "330px", height: "325px" }}
+            style={{ height: "283px" }}
             className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/97783621-b1469200-1b5e-11eb-8d90-935a7a2bcbae.PNG"
             alt="Fitness"
@@ -76,7 +76,8 @@ const Projects = () => {
             <MDBCardTitle tag="h5">Fitness Tracker</MDBCardTitle>
             <MDBCardText>
               With this app the user can log all exercises they perform in their
-              entire workout
+              entire workout. After the user has submitted a workout they can
+              edit the workout after and view past workouts.
             </MDBCardText>
             <MDBBtn
               href="https://github.com/Collin-Hodgson/WorkoutTracker"

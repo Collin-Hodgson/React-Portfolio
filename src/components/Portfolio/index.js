@@ -93,6 +93,7 @@ const Projects = () => {
       <MDBCardGroup deck className="mt-3">
         <MDBCard>
           <MDBCardImage
+            className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/97784659-c541c200-1b65-11eb-98ee-26da26acf883.PNG"
             alt="Team Generator"
             top
@@ -141,7 +142,7 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
-            style={{ height: "230px" }}
+            style={{ height: "225px" }}
             className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/97785992-063dd480-1b6e-11eb-8040-7ca005d7830b.png"
             alt="MDBCard image cap"

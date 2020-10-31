@@ -1,169 +1,160 @@
 import React from "react";
-import "./style.css";
+import {
+  MDBCardGroup,
+  MDBIcon,
+  MDBContainer,
+  MDBBtn,
+  MDBCard,
+  MDBCardBody,
+  MDBCardImage,
+  MDBCardTitle,
+  MDBCardText,
+} from "mdbreact";
 
-function Projects(props) {
+const Projects = () => {
   return (
-    <div class="row mt-5">
-      <section class="col-md-8 m-5 pb-5 bg-white text-dark">
-        <h2 class="pl-1 pt-4 pb-1">Portfolio</h2>
+    <MDBContainer className="mt-5">
+      <MDBCardGroup deck className="mt-3">
+        <MDBCard>
+          <MDBCardImage
+            style={{ width: "485px" }}
+            src="https://github.com/AtimaB/The-Fight-Club/raw/master/public/assets/images/welcomePage.png"
+            alt="Fight Club"
+            top
+          />
+          <MDBCardBody>
+            <MDBCardTitle tag="h5">The Fight Club</MDBCardTitle>
+            <MDBCardText>
+              As gamers we wanted to create a game that we could play with our
+              friends and share with others so they could play with their
+              friends
+            </MDBCardText>
+            <MDBBtn
+              href="https://github.com/AtimaB/The-Fight-Club"
+              color="primary"
+              size="md"
+            >
+              <MDBIcon icon="clone left" className="mr-1" />
+              View Project
+            </MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
 
-        <hr class="pl-4 pr-4 mpb-2 solid bg-dark" />
+        <MDBCard>
+          <MDBCardImage
+            href="https://github.com/Collin-Hodgson/Budget-Trackers"
+            src="https://user-images.githubusercontent.com/64516562/94870920-00858f80-0406-11eb-9891-00634c7764d1.PNG"
+            alt="Budget"
+            top
+          />
+          <MDBCardBody>
+            <MDBCardTitle tag="h5">Budget Tracker</MDBCardTitle>
+            <MDBCardText>
+              An app that allows the user to track their withdrawals and
+              deposits with or without a data/internet connection
+            </MDBCardText>
+            <MDBBtn
+              href="https://github.com/Collin-Hodgson/Budget-Trackers"
+              color="primary"
+              size="md"
+            >
+              <MDBIcon icon="clone left" className="mr-1" />
+              View Project
+            </MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
 
-        <div class="row mt-2">
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://collin-hodgson.github.io/coderefactor/">
-                <img
-                  src="/src/assets/images/coderefactor.jpg"
-                  alt="Code Refactor"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="text-over-image text-center m-1">Code Refactor</h4>
-            </div>
-          </div>
+        <MDBCard>
+          <MDBCardImage
+            className="img-fluid"
+            src="https://user-images.githubusercontent.com/64516562/94640654-84236d00-029c-11eb-8e4f-e65f2c9b4ac1.PNG"
+            alt="Fitness"
+            top
+          />
+          <MDBCardBody>
+            <MDBCardTitle tag="h5">Fitness Tracker</MDBCardTitle>
+            <MDBCardText>
+              With this app the user can log all exercises they perform in their
+              entire workout.
+            </MDBCardText>
+            <MDBBtn
+              href="https://github.com/Collin-Hodgson/WorkoutTracker"
+              color="primary"
+              size="md"
+            >
+              <MDBIcon icon="clone left" className="mr-1" />
+              View Project
+            </MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCardGroup>
+      <MDBCardGroup deck className="mt-3">
+        <MDBCard>
+          <MDBCardImage
+            size="128x128"
+            src="https://github.com/Collin-Hodgson/teamgenerator/raw/master/Assets/10-OOP-homework-demo-2.png"
+            alt="Team Generator"
+            top
+          />
+          <MDBCardBody>
+            <MDBCardTitle tag="h5">Team Profile Generator</MDBCardTitle>
+            <MDBCardText>
+              A command line application that allows the user to add and remove
+              employees with their employee information
+            </MDBCardText>
+            <MDBBtn
+              href="https://github.com/Collin-Hodgson/teamgenerator"
+              color="primary"
+              size="md"
+            >
+              <MDBIcon icon="clone left" className="mr-1" />
+              View Project
+            </MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
 
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://collin-hodgson.github.io/responsiveportfolio/">
-                <img
-                  src="/src/assets/images/portfolio.jpg"
-                  alt="Responsive Portfolio"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="overlay-text text-center m-1">Portfolio</h4>
-            </div>
-          </div>
-        </div>
+        <MDBCard>
+          <MDBCardImage
+            src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg"
+            alt="MDBCard image cap"
+            top
+            hover
+            overlay="white-slight"
+          />
+          <MDBCardBody>
+            <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+            <MDBCardText>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </MDBCardText>
+            <MDBBtn color="light-blue" size="md">
+              read more
+            </MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
 
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://collin-hodgson.github.io/passwordgenerator/">
-                <img
-                  src="/src/assets/images/password.PNG"
-                  alt="Password Generator"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="overlay-text text-center m-1">Password Generator</h4>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://collin-hodgson.github.io/dayplanner/">
-                <img
-                  src="/src/assets/images/planner.png"
-                  alt="Day Planner"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="overlay-text text-center m-1">Day Planner</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://collin-hodgson.github.io/weatherdashboard/">
-                <img
-                  src="/src/assets/images/dashboard.png"
-                  alt="Weather Dashboard"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="overlay-text text-center m-1">Weather Dashboard</h4>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://drive.google.com/file/d/1V6Eo94SWk8Ox7SalijZLZNSvAAsgQWqR/view?usp=sharing">
-                <img
-                  src="/src/assets/images/resume.jpg"
-                  alt="Resume"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="overlay-text text-center m-1">Resume</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://github.com/Eelektrick/8-bit-bartender">
-                <img
-                  src="/src/assets/images/cropped-logo.png"
-                  alt="8-Bit Bartender"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="overlay-text text-center m-1">8-Bit Bartender</h4>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://github.com/Collin-Hodgson/readmegenerator">
-                <img
-                  src="/src/assets/images/readme.PNG"
-                  alt="README.md Generator"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="overlay-text text-center m-1">README.md Generator</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://github.com/Collin-Hodgson/teamgenerator">
-                <img
-                  src="/src/assets/images/teamgenerator.PNG"
-                  alt="Team Generator"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="overlay-text text-center m-1">Team Generator</h4>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <a href="https://github.com/AtimaB/The-Fight-Club">
-                <img
-                  src="/src/assets/images/fightclub.PNG"
-                  alt="The-Fight-Club"
-                  class="card-img-top img-fluid mx-auto d-block"
-                />
-              </a>
-              <h4 class="overlay-text text-center m-1">The Fight Club</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="card p-2 shadow border-0">
-              <img
-                src="/src/assets/images/soon.jpg"
-                alt="Coming Soon"
-                class="card-img-top img-fluid mx-auto d-block"
-              />
-              <h4 class="overlay-text text-center m-1">Coming Soon</h4>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+        <MDBCard>
+          <MDBCardImage
+            src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg"
+            alt="MDBCard image cap"
+            top
+            hover
+            overlay="white-slight"
+          />
+          <MDBCardBody>
+            <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+            <MDBCardText>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </MDBCardText>
+            <MDBBtn color="light-blue" size="md">
+              read more
+            </MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCardGroup>
+    </MDBContainer>
   );
-}
+};
 
 export default Projects;

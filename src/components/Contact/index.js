@@ -6,7 +6,7 @@ const ContactInfo = () => {
     <MDBContainer className="mt-5">
       <MDBRow>
         <MDBCol md="12">
-          <h2>About Me</h2>
+          <h2>Contact Information</h2>
           <hr class="solid bg-dark" />
           <img
             style={{ height: "250px" }}

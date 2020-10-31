@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <MDBContainer className="mt-5">
       <MDBCardGroup deck className="mt-3">
-        <MDBCard>
+        <MDBCard className="border border-dark">
           <MDBCardImage
             style={{ width: "485px" }}
             src="https://github.com/AtimaB/The-Fight-Club/raw/master/public/assets/images/welcomePage.png"
@@ -40,7 +40,7 @@ const Projects = () => {
           </MDBCardBody>
         </MDBCard>
 
-        <MDBCard>
+        <MDBCard className="border border-dark">
           <MDBCardImage
             className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/94870920-00858f80-0406-11eb-9891-00634c7764d1.PNG"
@@ -64,7 +64,7 @@ const Projects = () => {
           </MDBCardBody>
         </MDBCard>
 
-        <MDBCard>
+        <MDBCard className="border border-dark">
           <MDBCardImage
             style={{ height: "283px" }}
             className="img-fluid"
@@ -91,7 +91,7 @@ const Projects = () => {
         </MDBCard>
       </MDBCardGroup>
       <MDBCardGroup deck className="mt-3">
-        <MDBCard>
+        <MDBCard className="border border-dark">
           <MDBCardImage
             className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/97784659-c541c200-1b65-11eb-98ee-26da26acf883.PNG"
@@ -115,7 +115,7 @@ const Projects = () => {
           </MDBCardBody>
         </MDBCard>
 
-        <MDBCard>
+        <MDBCard className="border border-dark">
           <MDBCardImage
             style={{ height: "225px" }}
             className="img-fluid"
@@ -140,7 +140,7 @@ const Projects = () => {
           </MDBCardBody>
         </MDBCard>
 
-        <MDBCard>
+        <MDBCard className="border border-dark">
           <MDBCardImage
             style={{ height: "225px" }}
             className="img-fluid"
@@ -167,7 +167,7 @@ const Projects = () => {
         </MDBCard>
       </MDBCardGroup>
       <MDBCardGroup deck className="mt-3">
-        <MDBCard>
+        <MDBCard className="border border-dark">
           <MDBCardImage
             style={{ height: "205px" }}
             src="https://user-images.githubusercontent.com/64516562/97790062-321b8300-1b8b-11eb-8a0e-079e54b31341.png"
@@ -192,7 +192,7 @@ const Projects = () => {
           </MDBCardBody>
         </MDBCard>
 
-        <MDBCard>
+        <MDBCard className="border border-dark">
           <MDBCardImage
             src="https://user-images.githubusercontent.com/64516562/97790068-3a73be00-1b8b-11eb-94f9-459018a10c80.PNG"
             alt="Password"
@@ -216,7 +216,7 @@ const Projects = () => {
           </MDBCardBody>
         </MDBCard>
 
-        <MDBCard>
+        <MDBCard className="border border-dark">
           <MDBCardImage
             style={{ height: "205px" }}
             src="https://user-images.githubusercontent.com/64516562/97790066-3647a080-1b8b-11eb-8b2d-05e8b7fbc112.jpg"

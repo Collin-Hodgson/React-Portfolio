@@ -1,15 +1,15 @@
 import React from "react";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
-function AboutMe(props) {
+const AboutMe = () => {
   return (
-    <div class="row mt-5">
-      <section class="col-md-8 m-5 pb-5 bg-light text-dark">
-        <h2 class="pl-4 pt-4 pb-2">About Me</h2>
-
-        <div class="px-3 mr-3">
-          <hr class="pl-4 pr-4 mpb-2 solid bg-dark" />
+    <MDBContainer className="mt-5">
+      <MDBRow>
+        <MDBCol md="12">
+          <h2>About Me</h2>
+          <hr class="solid bg-dark" />
           <img
-            src="/src/assets/images/me.jpg.HEIC"
+            src=""
             class="float-left pr-4 pb-3 img-fluid"
             alt="Collin Hodgson"
           />
@@ -28,10 +28,10 @@ function AboutMe(props) {
             systems, so a lot of classes I have taken can greatly assist me in
             web development.
           </p>
-        </div>
-      </section>
-    </div>
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
   );
-}
+};
 
 export default AboutMe;

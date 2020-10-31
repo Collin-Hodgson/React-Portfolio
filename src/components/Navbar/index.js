@@ -21,15 +21,15 @@ function Navbar() {
       </MDBNavbarBrand>
       <MDBNavbarNav right>
         <MDBNavItem>
-          <MDBNavLink className="waves-effect waves-light" to="#!">
-            <MDBIcon icon="envelope" className="mr-1" />
-            Contact
+          <MDBNavLink className="waves-effect waves-light" to="/about">
+            <MDBIcon icon="home" className="mr-1" />
+            About Me
           </MDBNavLink>
         </MDBNavItem>
         <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="#!">
-            <MDBIcon icon="cog" className="mr-1" />
-            Settings
+            <MDBIcon icon="envelope" className="mr-1" />
+            Contact
           </MDBNavLink>
         </MDBNavItem>
       </MDBNavbarNav>

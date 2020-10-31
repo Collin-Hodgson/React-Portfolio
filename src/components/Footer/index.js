@@ -9,7 +9,7 @@ function Footer() {
           <li class="list-inline-item">
             <a
               class="btn-floating btn-fb mx-1"
-              href="https://github.com/Collin-Hodgson"
+              href="https://www.linkedin.com/in/collinhodgson?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbaDSOG4pSUKwACfo%2Bmpf9w%3D%3D"
             >
               <i class="fab fa-github"> </i>
             </a>

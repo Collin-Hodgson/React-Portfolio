@@ -90,8 +90,7 @@ const Projects = () => {
       <MDBCardGroup deck className="mt-3">
         <MDBCard>
           <MDBCardImage
-            style={{ width: "250px", height: "200px" }}
-            src="https://github.com/Collin-Hodgson/teamgenerator/raw/master/Assets/10-OOP-homework-demo-2.png"
+            src="https://user-images.githubusercontent.com/64516562/97784659-c541c200-1b65-11eb-98ee-26da26acf883.PNG"
             alt="Team Generator"
             top
           />
@@ -114,19 +113,24 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
-            style={{ width: "250px", height: "225px" }}
-            src="https://user-images.githubusercontent.com/64516562/97783467-97587f80-1b5d-11eb-9763-68ccebfadea9.png"
+            style={{ width: "280px", height: "225px" }}
+            src="https://user-images.githubusercontent.com/64516562/97784734-3aad9280-1b66-11eb-8a13-fa3658aa5e17.png"
             alt="MDBCard image cap"
             top
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+            <MDBCardTitle tag="h5">Weather Dashboard</MDBCardTitle>
             <MDBCardText>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              This website pulls data from an API to show the user the daily and
+              five day forecast for any city on earth
             </MDBCardText>
-            <MDBBtn color="light-blue" size="md">
-              read more
+            <MDBBtn
+              href="https://github.com/Collin-Hodgson/weatherdashboard"
+              color="primary"
+              size="md"
+            >
+              <MDBIcon icon="clone left" className="mr-1" />
+              View Project
             </MDBBtn>
           </MDBCardBody>
         </MDBCard>

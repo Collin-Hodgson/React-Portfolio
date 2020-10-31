@@ -66,6 +66,7 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
+            style={{ width: "100%" }}
             className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/94640654-84236d00-029c-11eb-8e4f-e65f2c9b4ac1.PNG"
             alt="Fitness"

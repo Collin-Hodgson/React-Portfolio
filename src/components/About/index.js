@@ -9,7 +9,7 @@ const AboutMe = () => {
           <h2>About Me</h2>
           <hr class="solid bg-dark" />
           <img
-            src=""
+            src="/src/assets/CHodgson.JPG"
             class="float-left pr-4 pb-3 img-fluid"
             alt="Collin Hodgson"
           />

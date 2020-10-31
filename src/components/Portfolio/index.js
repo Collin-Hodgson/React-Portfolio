@@ -42,6 +42,7 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
+            className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/94870920-00858f80-0406-11eb-9891-00634c7764d1.PNG"
             alt="Budget"
             top
@@ -66,6 +67,7 @@ const Projects = () => {
         <MDBCard>
           <MDBCardImage
             style={{ width: "330px", height: "325px" }}
+            className="img-fluid"
             src="https://user-images.githubusercontent.com/64516562/97783621-b1469200-1b5e-11eb-8d90-935a7a2bcbae.PNG"
             alt="Fitness"
             top
@@ -113,8 +115,9 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
-            style={{ width: "280px", height: "225px" }}
-            src="https://user-images.githubusercontent.com/64516562/97784734-3aad9280-1b66-11eb-8a13-fa3658aa5e17.png"
+            style={{ height: "225px" }}
+            className="img-fluid"
+            src="https://user-images.githubusercontent.com/64516562/97785431-882bfe80-1b6a-11eb-8f73-a79d66dce85a.png"
             alt="MDBCard image cap"
             top
           />
@@ -137,20 +140,26 @@ const Projects = () => {
 
         <MDBCard>
           <MDBCardImage
-            src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg"
+            style={{ height: "230px" }}
+            className="img-fluid"
+            src="https://user-images.githubusercontent.com/64516562/97785992-063dd480-1b6e-11eb-8040-7ca005d7830b.png"
             alt="MDBCard image cap"
             top
-            hover
-            overlay="white-slight"
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+            <MDBCardTitle tag="h5">8 Bit Bartender</MDBCardTitle>
             <MDBCardText>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              A reto-themed guide to cocktail recipes and nutritonal
+              information. Users submit cocktails and the nutrition/ingredients
+              are provided.
             </MDBCardText>
-            <MDBBtn color="light-blue" size="md">
-              read more
+            <MDBBtn
+              href="https://github.com/Eelektrick/8-bit-bartender"
+              color="primary"
+              size="md"
+            >
+              <MDBIcon icon="clone left" className="mr-1" />
+              View Project
             </MDBBtn>
           </MDBCardBody>
         </MDBCard>

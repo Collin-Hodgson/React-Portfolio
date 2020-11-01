@@ -76,6 +76,10 @@ As with the previous portfolio homework, "good" design is subjective. Your site 
 - If you want to go above and beyond, try using animations and react component libraries. Note
   that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
 
+## Deployed Application
+
+https://collin-hodgson.github.io/React-Portfolio/
+
 ### React
 
 Additionally, this new portfolio should be created using React.

@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
 
 const ContactInfo = () => {
   return (
@@ -24,8 +24,17 @@ const ContactInfo = () => {
             Thank you!
           </h4>
           <hr className="hr-light w-25" />
-          <h2>E-mail</h2>
+          <h3>Cell Phone</h3>
           <hr className="hr-dark w-25" />
+          <a href="tel:801-792-5502">
+            <MDBIcon icon="phone-alt" /> 801-792-5502
+          </a>
+          <hr className="hr-light w-25" />
+          <h3>E-mail</h3>
+          <hr className="hr-dark w-25" />
+          <a href="mailto:collinhodgs@gmail.com">
+            <MDBIcon icon="envelope" /> collinhodgs@gmail.com
+          </a>
         </MDBCol>
       </MDBRow>
     </MDBContainer>

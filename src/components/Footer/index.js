@@ -27,7 +27,7 @@ function Footer() {
 
       <div class="footer-copyright text-center py-3">
         © 2020 Copyright:
-        <a href="https://www.linkedin.com/in/collinhodgson/">
+        <a href="https://github.com/Collin-Hodgson/React-Portfolio">
           {" "}
           Collin P. Hodgson
         </a>

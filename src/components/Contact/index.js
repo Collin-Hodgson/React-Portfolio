@@ -20,7 +20,7 @@ const ContactInfo = () => {
             University. Now I am actively looking for a Junior Web Development
             position, below I have linked my e-mail and cell phone number.
             Please feel free to contact me at any time and if I do not
-            immediately respond I will respond within the next buisness day,
+            immediately respond I will respond within the next buisness day.
             Thank you!
           </h4>
           <hr className="hr-light w-25" />

@@ -7,7 +7,6 @@ import {
   MDBNavLink,
   MDBIcon,
 } from "mdbreact";
-import Resume from "../../assets/Hodgson_Collin Resume.docx";
 
 function Navbar() {
   return (

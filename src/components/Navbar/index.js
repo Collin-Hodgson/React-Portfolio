@@ -33,6 +33,12 @@ function Navbar() {
           </MDBNavLink>
         </MDBNavItem>
         <MDBNavItem>
+          <MDBNavLink className="waves-effect waves-light" to="/about">
+            <MDBIcon icon="download" className="mr-1" />
+            Resume
+          </MDBNavLink>
+        </MDBNavItem>
+        <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="/contact">
             <MDBIcon icon="envelope" className="mr-1" />
             Contact

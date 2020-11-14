@@ -6,6 +6,7 @@ import Wrapper from "./components/Wrapper/index";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import ResumePage from "./pages/ResumePage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Wrapper>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/resume" component={ResumePage} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Wrapper>

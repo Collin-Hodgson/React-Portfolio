@@ -219,19 +219,19 @@ const Projects = () => {
         <MDBCard className="border border-dark">
           <MDBCardImage
             style={{ height: "205px" }}
-            src="https://user-images.githubusercontent.com/64516562/97790066-3647a080-1b8b-11eb-8b2d-05e8b7fbc112.jpg"
-            alt="Refactor"
+            src="https://github.com/denismatijevic/summerlinlabs/raw/master/public/assets/Mission.png"
+            alt="Summerlin Labs"
             top
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">Code Refactor</MDBCardTitle>
+            <MDBCardTitle tag="h5">Summerlin Labs </MDBCardTitle>
             <MDBCardText>
-              This was an introductory assignment. We were required to update
-              div tags into semantic HTML tags to make the code easier to read,
-              understand and follow.
+              This is my final project for the program. A local business owner
+              tasked my group with creating a website for their health and
+              testing clinic.
             </MDBCardText>
             <MDBBtn
-              href="https://github.com/Collin-Hodgson/coderefactor"
+              href="https://github.com/denismatijevic/summerlinlabs"
               color="primary"
               size="md"
             >

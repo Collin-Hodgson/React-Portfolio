@@ -14,20 +14,20 @@ const AboutMe = () => {
             class="float-left pr-4 pb-3 img-fluid"
             alt="Collin Hodgson"
           />
-          <p style={{ fontSize: "30px" }}>
-            My name is Collin Hodgson. I currently live in Ogden, UT. My hobbies
-            are skateboarding, walking/hiking with my dogs, and golfing. I
-            currently work at Hill AFB doing basic electrical work however I am
-            taking the web development bootcamp at the University of Utah.
+          <p style={{ fontSize: "27px" }}>
+            Hello, my name is Collin Hodgson. I recently graduated a Full Stack
+            Web Developer program at the University of Utah and received
+            certificate of completion. Currently I live in Ogden, UT. I am
+            actively looking for job opportunities as a Junior Web Developer in
+            northern Utah. When I am not creating websites some of my hobbies
+            include golfing, video games, and hiking with my dog.
           </p>
-          <p style={{ fontSize: "30px" }}>
-            I am detail orienteed with good verbal and written commuincation
-            skills. I have good computer skills and am proficient with Microsoft
-            Office. While I am working my current job I am enrolled in the web
-            development bootcamp to become a full stack web developer. I
-            originally was going to school to obtain a degree in information
-            systems, so a lot of classes I have taken can greatly assist me in
-            web development.
+          <p style={{ fontSize: "27px" }}>
+            I am proficient with computers and have good understanding of
+            Microsoft Office. I am committed to high standards of user
+            experience, usability, and speed. I lend detailed knowledge of SEO
+            to increase visibility. I am detail focused and an ambitious problem
+            solver with a passion for learning new skills.
           </p>
         </MDBCol>
       </MDBRow>

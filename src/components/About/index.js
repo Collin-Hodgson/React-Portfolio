@@ -24,10 +24,11 @@ const AboutMe = () => {
           </p>
           <p style={{ fontSize: "27px" }}>
             I am proficient with computers and have good understanding of
-            Microsoft Office. I am committed to high standards of user
-            experience, usability, and speed. I lend detailed knowledge of SEO
-            to increase visibility. I am detail focused and an ambitious problem
-            solver with a passion for learning new skills.
+            Microsoft OS and Microsoft Office. I also have experience using
+            Linux OS. I am committed to high standards of user experience,
+            usability, and speed. I lend detailed knowledge of SEO to increase
+            visibility. I am detail focused and an ambitious problem solver with
+            a passion for learning new skills.
           </p>
         </MDBCol>
       </MDBRow>
